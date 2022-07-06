@@ -1,0 +1,13 @@
+local TextLabel = Instance.new("TextLabel")
+
+local Status = "STATUS: UNSTABLE"
+
+TextLabel.Parent = script.Parent
+TextLabel.BackgroundColor = BrickColor.new("Really black")
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.0405361392, 0, 0, 0)
+TextLabel.Size = UDim2.new(0, 120, 0, 36)
+TextLabel.Font = Enum.Font.SourceSansBold
+TextLabel.Text = Status
+TextLabel.TextColor = BrickColor.new("Neon orange")
+TextLabel.TextSize = 15.000
